@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Cancer Detection</title>
+</head>
+<body>
+    <h2>Upload Mammography Image for Detection</h2>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <input type="submit" value="Submit Image">
+    </form>
+</body>
+</html>
