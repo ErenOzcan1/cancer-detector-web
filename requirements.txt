@@ -1,6 +1,7 @@
-flask
 torch
 torchvision
-pillow
+gradio
 opencv-python
-gunicorn
+numpy
+pillow
+huggingface_hub
